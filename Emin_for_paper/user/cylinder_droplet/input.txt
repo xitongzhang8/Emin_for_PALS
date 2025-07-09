@@ -1,0 +1,38 @@
+[System properties]
+NPOSTX=1
+NPOSTY=3
+WIDTHX=1000
+WIDTHY=10
+HEIGHT1=10
+GRIDX=200
+GRIDY=60
+GRIDZ=100
+
+[Fluid properties]
+N_PHASE=4
+alpha=1.0
+
+[Interfacial tensions]
+g12=0.360
+g13=0.085
+g14=1.000
+g23=0.624
+g24=0.889
+g34=1.600
+
+[Constraints]
+const_label_1=1
+const_value_1=210000
+const_strength_1=0.001
+
+const_label_2=2
+const_value_2=-0.03
+const_strength_2=0.00
+
+const_label_3=2
+const_value_3=-0.03
+const_strength_3=0.0
+
+const_label_4=0
+const_value_4=0
+const_strength_4=0.00
